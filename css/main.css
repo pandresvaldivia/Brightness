@@ -7,5 +7,19 @@
 }
 
 .body {
+	align-items: center;
 	background: var(--bg);
+	block-size: 100vh;
+	display: flex;
+	margin: 0;
+	min-inline-size: 22.5rem;
+}
+
+.wrapper {
+	flex: 1;
+	margin-inline-end: auto;
+	margin-inline-start: auto;
+	max-inline-size: 686px;
+	padding-inline-end: 2.625rem;
+	padding-inline-start: 2.625rem;
 }

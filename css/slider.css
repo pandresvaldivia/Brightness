@@ -4,11 +4,21 @@
 }
 
 .slider i {
-	font-size: 1.5rem;
 	color: var(--primary);
+	font-size: 1.5rem;
 	transform: rotate(var(--degrees));
 	-webkit-transform: rotate(var(--degrees));
 	-moz-transform: rotate(var(--degrees));
 	-ms-transform: rotate(var(--degrees));
 	-o-transform: rotate(var(--degrees));
+}
+
+@media screen and (min-width: 700px) {
+	.slider {
+		gap: 1.5rem;
+	}
+
+	.slider i {
+		font-size: 3.4769rem;
+	}
 }

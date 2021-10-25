@@ -12,7 +12,6 @@ function handleBrightness() {
 }
 
 function handleIcon(percentage) {
-	console.log(360 * percentage);
 	setCssVar('--degrees', `${360 * percentage}deg`);
 }
 
