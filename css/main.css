@@ -1,0 +1,10 @@
+:root {
+	--primary: #ff8906;
+	--track: rgba(48, 127, 226, 0.3);
+	--brightness: 0%;
+	--bg: hsla(247, 24%, 7%, 1);
+}
+
+.body {
+	background: var(--bg);
+}
