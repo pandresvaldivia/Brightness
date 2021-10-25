@@ -11,12 +11,16 @@ function handleBrightness() {
 	setCssVar('--bg', `${brightness}`);
 }
 
+function handleIcon(percentage) {
+	console.log(360 * percentage);
+	setCssVar('--degrees', `${360 * percentage}deg`);
+}
+
 function handleSlider() {
 	const brightnessValue = ($slider.value / $slider.max) * 100;
 	setCssVar('--brightness', `${brightnessValue}%`);
+	handleIcon(brightnessValue);
 	handleBrightness();
 }
-
-function handleIcon() {}
 
 export { handleSlider };

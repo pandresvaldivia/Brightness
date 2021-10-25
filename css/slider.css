@@ -1,0 +1,14 @@
+.slider {
+	display: flex;
+	gap: 0.75rem;
+}
+
+.slider i {
+	font-size: 1.5rem;
+	color: var(--primary);
+	transform: rotate(var(--degrees));
+	-webkit-transform: rotate(var(--degrees));
+	-moz-transform: rotate(var(--degrees));
+	-ms-transform: rotate(var(--degrees));
+	-o-transform: rotate(var(--degrees));
+}
